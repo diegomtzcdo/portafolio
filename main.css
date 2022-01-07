@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: rgb(89 95 102);
 }
 .main {
   background-image: url("img/back.jpg");
@@ -43,7 +44,7 @@ body {
 }
 
 .conocimiento {
-  background-color: rgb(0, 28, 59);
+  background-color: rgb(89 95 102);
   color: rgb(199, 199, 199);
   font-family: "Josefin Sans", sans-serif;
 }
@@ -92,4 +93,48 @@ body {
   margin-left: 16px auto;
   color: rgb(199, 199, 199);
   font-size: 25px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info span {
+  margin: 0 16px;
+}
+
+.icons {
+  display: flex;
+}
+
+.flow {
+  display: flex;
+  align-items: center;
+  margin: auto 16px;
+}
+
+.icons img {
+  width: 100px;
+  height: auto;
+  margin: 0 8px;
+}
+
+.know {
+  color: rgb(199, 199, 199);
+}
+
+.know h3 {
+  margin-bottom: 0;
+}
+
+.know p {
+  margin-top: 5px !important;
+  align-items: center;
+}
+
+.know p div{
+  display: flex;
+  align-items: center;
 }
