@@ -2,12 +2,14 @@ body {
   margin: 0;
 }
 .main {
-  background-image: url("https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_960_720.jpg");
+  background-image: url("img/back.jpg");
   display: flex;
   align-items: center;
   justify-items: revert;
   padding: 45px;
   font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 50px;
+  background-size: cover;
 }
 
 .foto {
@@ -36,17 +38,58 @@ body {
 }
 
 .educacion {
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-  }
-  
-.educacion > .child {
-    -webkit-transform: skewY(5deg);
-    -moz-transform: skewY(5deg);
-    -ms-transform: skewY(5deg);
-    -o-transform: skewY(5deg);
-    transform: skewY(5deg);
+  background-color: rgb(36, 36, 36);
+  padding-top: 35px;
+}
+
+.conocimiento {
+  background-color: rgb(0, 28, 59);
+  color: rgb(199, 199, 199);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.diagonal {
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  margin-top: -26px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.diagonal > .child {
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  transform: skewY(3deg);
+  padding-top: 35px;
+}
+
+.logouaa {
+  width: auto;
+  height: fit-content;
+}
+
+.escuela {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+  color: rgb(199, 199, 199);
+}
+
+.exp {
+  color: rgb(199, 199, 199);
+  margin: auto 32px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 35px;
+}
+
+.escuela p {
+  margin-left: 16px auto;
+  color: rgb(199, 199, 199);
+  font-size: 25px;
 }
