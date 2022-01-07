@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+.main {
+  background-image: url("https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_960_720.jpg");
+  display: flex;
+  align-items: center;
+  justify-items: revert;
+  padding: 45px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.foto {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  width: 100px;
+  height: auto;
+  border: 3px solid #64bdff;
+}
+
+.datos {
+  color: black;
+  margin: auto 0;
+  margin-left: 45px;
+}
+
+.datos h3 {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.datos span {
+  text-decoration: none;
+  color: rgb(0, 87, 87);
+}
+
+.educacion {
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+  
+.educacion > .child {
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+    transform: skewY(5deg);
+}
