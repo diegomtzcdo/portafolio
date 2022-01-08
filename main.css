@@ -148,6 +148,11 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .escuela p {
+    margin: 0 24px;
+  }
+
   .logouaa {
     width: auto;
     height: fit-content;
