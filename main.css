@@ -106,14 +106,14 @@ body {
 
 .icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .flow {
   display: flex;
   align-items: center;
-  margin: 10px 75px;
+  margin: 10px 69px;
 }
 
 .icons img {
@@ -151,6 +151,10 @@ body {
   .escuela p {
     margin: 10px 24px 0 24px;
     text-align: justify;
+  }
+
+  .know {
+    min-width: 15px;
   }
 
   .logouaa {
