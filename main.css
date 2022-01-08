@@ -142,3 +142,16 @@ body {
   align-items: center;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  .responsive {
+    display: flex;
+    flex-direction: column;
+  }
+  .logouaa {
+    width: auto;
+    height: fit-content;
+    margin: 0 24px;
+  }
+  
+}
