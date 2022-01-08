@@ -107,12 +107,14 @@ body {
 
 .icons {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .flow {
   display: flex;
   align-items: center;
-  margin: auto 16px;
+  margin: 10px 75px;
 }
 
 .icons img {
@@ -123,6 +125,7 @@ body {
 
 .know {
   color: rgb(199, 199, 199);
+  min-width: 215px;
 }
 
 .know h3 {
@@ -134,7 +137,8 @@ body {
   align-items: center;
 }
 
-.know p div{
+.know div{
   display: flex;
   align-items: center;
+  margin-top: 5px;
 }
